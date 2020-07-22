@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #67b0d1;
+  background: #b63150;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,8 +52,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #86c0da;
+  background: #c55a73;
   transition: background 0.2s ease-in-out;
+    
 }
 
 #main {
@@ -76,29 +77,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 176, 209, 0.8);
+  background:#b63150;
   padding: 0;
 }
 
-#header .logo h1 {
-  font-size: 24px;
-  margin: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-}
+.logo-image {
+  vertical-align: middle;
+  align-items: flex-start;
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  }
 
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-}
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 768px) {
@@ -121,13 +116,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
   float: left;
-  background: rgba(255, 255, 255, 0.2);
+  background: #b63150;
 }
 
 .nav-menu a {
   display: block;
   position: relative;
-  color: #2f4d5a;
+  color: white;
   padding: 20px 15px;
   transition: 0.3s;
   font-size: 13px;
