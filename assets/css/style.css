@@ -1209,6 +1209,7 @@ section {
 #footer .footer-top .footer-info {
   margin-top: -90px;
   margin-bottom: 15px;
+  
   background: white;
   color: #b63150;
   border-top: 4px solid #b63150;
@@ -1247,7 +1248,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #B63150;
+  background: #D57C9C;
   color: #fff;
   text-decoration: none;
 }
@@ -1262,6 +1263,7 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+
 }
 
 #footer .footer-top .footer-links ul {
@@ -1295,8 +1297,10 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cfe3;
+  color: #B63150;
 }
+    
+
 
 #footer .copyright {
   border-top: 1px solid #b63150;
