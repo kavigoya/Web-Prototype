@@ -569,7 +569,7 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #D57C9C;
   margin-bottom: 10px;
 }
 
@@ -825,7 +825,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #e1acb9;
   transition: all 0.3s ease-in-out;
 }
 
@@ -870,7 +870,7 @@ section {
 # Map
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(203, 163, 174, 0.8), rgba(227, 186, 197, 0.8)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -920,7 +920,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #67b0d1;
+  color: #d38396;
   float: left;
 }
 
@@ -929,7 +929,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #2f4d5a;
+  color: #B63150;
   margin-left: 60px;
 }
 
@@ -938,21 +938,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #49788c;
+  color: #908A8C;
 }
 
 .counts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #49788c;
+  color: #e1acb9;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .counts .count-box a:hover {
-  color: #6e9fb4;
+  color: #e1acb9;
 }
 
 
@@ -985,7 +985,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d5e9f2;
+  color: #f0d5dc;
   font-size: 26px;
 }
 
@@ -1040,7 +1040,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #67b0d1 !important;
+  background-color: #b63150 !important;
 }
 
 @media (max-width: 767px) {
@@ -1068,7 +1068,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #67b0d1;
+  color: #e1acb9;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1151,7 +1151,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #67b0d1;
+  background-color: #f0d6dc;
 }
 
 .contact .php-email-form input {
@@ -1163,7 +1163,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #67b0d1;
+  background: #D57C9C;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1171,7 +1171,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #8ec4dd;
+  background: #f0d6dc;
 }
 
 @-webkit-keyframes animate-loading {
