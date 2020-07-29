@@ -1196,15 +1196,15 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #b63150;
+  background: #f0d3de;
   padding: 0 0 30px 0;
-  color: #fff;
+  
   font-size: 14px;
 }
 
 
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid #b63150;
   text-align: center;
   padding-top: 30px;
 }
@@ -1213,7 +1213,7 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  
 }
 
 @media (max-width: 575px) {
