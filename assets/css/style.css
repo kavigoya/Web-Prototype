@@ -8,8 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Barlow', sans-serif;
   color: #444444;
 }
 
@@ -540,10 +542,11 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
+    align-content: center;
 }
 
 .about .content .about-btn {
-  display: inline-block;
+  display:: inline-block;
   background: #67b0d1;
   padding: 6px 44px 8px 30px;
   color: #fff;
@@ -602,7 +605,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-}
+    align-content: center;
+   }
 
 .portfolio #portfolio-flters {
   padding: 0;
@@ -1043,6 +1047,10 @@ section {
   background-color: #b63150 !important;
 }
 
+.tripadvisor-logo{
+    align-items: center;
+}
+
 @media (max-width: 767px) {
   .testimonials {
     margin: 30px 10px;
@@ -1064,6 +1072,7 @@ section {
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
+ 
 }
 
 .contact .info-box i {
@@ -1092,6 +1101,8 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
+
+    
 }
 
 .contact .php-email-form .validate {
@@ -1230,6 +1241,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
+    color: #444444;
 }
 
 #footer .footer-top .social-links a {
