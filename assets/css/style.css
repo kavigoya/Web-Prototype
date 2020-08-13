@@ -1361,6 +1361,10 @@ section {
 
 }
 
+.black-font{
+    color: #B63150
+}
+
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
