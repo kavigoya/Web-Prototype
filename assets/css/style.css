@@ -821,7 +821,7 @@ section {
 }
 
 .deliveroo-btn:hover {
-    filter: drop-shadow(16px 16px 20px rgba(203, 163, 174, 1)) invert(100%);
+    filter: drop-shadow(10px 10px 15px rgba(203, 163, 174, 1));
 }
 
 .full-width {
