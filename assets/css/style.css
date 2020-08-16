@@ -89,7 +89,7 @@ h6 {
 }
 
 
-.logo-image /* Class added since original logo was a heading */
+.logo-image /* Class added to style logo image */
 {
     vertical-align: middle;
     align-items: flex-start;
@@ -780,7 +780,7 @@ section {
     text-align: left;
 }
 
-.services .opening-hours {
+.services .opening-hours /* Class added to style opening hours paragraph */{
     font-size: 15px;
     line-height: 28px;
     margin-top: 15px;
@@ -1179,8 +1179,6 @@ section {
     color: #B63150;
 }
 
-
-
 #footer .copyright {
     border-top: 1px solid #b63150;
     text-align: center;
@@ -1196,7 +1194,7 @@ section {
 
 }
 
-.black-font {
+.black-font /*Class added to style BotstrapMade link*/ {
     color: #B63150
 }
 
