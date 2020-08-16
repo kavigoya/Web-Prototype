@@ -8,12 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/*Added external font classs*/ 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
 
 body {
     font-family: 'Barlow', sans-serif;
     color: #444444;
 }
+/*refer to slide 50 in justification document*/
 
 a {
     color: #b63150;
@@ -23,6 +25,8 @@ a:hover {
     color: #b63150;
     text-decoration: none;
 }
+/*refer to slide 11 in justification document*/
+
 
 h1,
 h2,
@@ -32,6 +36,7 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
+/*refer to slide 50 in justification document*/
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -537,6 +542,7 @@ section {
     }
 }
 
+/*Removed Services section*/
 
 /*--------------------------------------------------------------
 # Counts
@@ -589,6 +595,7 @@ section {
     color: #e1acb9;
 }
 
+/*Removed cta section*/
 
 /*--------------------------------------------------------------
 # Our Goodies
@@ -698,6 +705,7 @@ section {
 /*--------------------------------------------------------------
 # Deliveroo 
 --------------------------------------------------------------*/
+/*created new class(es)*/
 
 .deliveroo {
     background: linear-gradient(rgba(203, 163, 174, 0.2), rgba(227, 186, 197, 0.2))
@@ -711,6 +719,8 @@ section {
 .deliveroo-btn:hover {
     filter: drop-shadow(10px 10px 15px rgba(203, 163, 174, 1));
 }
+/*Added hover function to make create button-appearance and to make it look more appealing*/
+
 
 .full-width {
     width: 100%;
@@ -917,6 +927,7 @@ section {
 /*--------------------------------------------------------------
 # Tripadvisor
 --------------------------------------------------------------*/
+/*created new class*/
 
 .tripadvisor-btn:hover {
     filter: drop-shadow(5px 5px 10px rgba(203, 163, 174, 1));
@@ -1209,3 +1220,4 @@ section {
     flex-direction: column;
     justify-content: center;
 }
+/*added a new center class*/
