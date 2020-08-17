@@ -3,6 +3,7 @@
 * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+* Modified by Nadine Brük and Karen Vigoya
 */
 
 /*--------------------------------------------------------------
@@ -12,9 +13,22 @@
 /*----------------------------------------------
 Table of Contents
 1. Back to top
----------------*/
-
-
+2. Header
+3. Navigation menu
+4. Home
+5. Sections general
+6. Our Story
+7. Counts
+8. Our Goodies
+9. Menu page
+10. Deliveroo
+11. Our Stores
+12. Map
+13. Testimonials
+14. Tripadvisor
+15. Contact
+16. Footer
+----------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
 
@@ -40,6 +54,8 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -75,6 +91,8 @@ h6 {
 #main {
     margin-top: 90px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Header
@@ -121,6 +139,8 @@ h6 {
         padding: 15px 0;
     }
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -364,13 +384,15 @@ h6 {
     color: #fff;
 }
 
+
+
 /*--------------------------------------------------------------
-# Home Section
+# Home
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/homepage.jpg") top center;
+    background: url("../img/homepage.jpg") top center; /* Image taken from Unsplash */
     background-size: cover;
     position: relative;
     margin-bottom: -90px;
@@ -446,6 +468,8 @@ h6 {
     }
 }
 
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -488,10 +512,12 @@ section {
     margin-bottom: 0;
 }
 
+/*------ Removed Breadcrums section ------*/
+
 
 
 /*--------------------------------------------------------------
-# OUR STORY SECTION
+# Our Story, previosly About
 --------------------------------------------------------------*/
 .about {
     background: url("../img/about-bg.jpg") center center no-repeat;
@@ -533,6 +559,8 @@ section {
     align-content: center;
 }
 
+/*------ Removed about btn and icon boxes style since it was deleted in html ------*/
+
 @media (max-width: 1200px) {
     .about .content {
         padding-right: 0;
@@ -545,6 +573,9 @@ section {
     }
 }
 
+/*------ Relocated Services section afer Deliveroo. Renamed it Our Stores with the same classes ------*/
+
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -552,6 +583,7 @@ section {
 .counts {
     padding-bottom: 30px;
     background: linear-gradient(rgba(203, 163, 174, 0.2), rgba(227, 186, 197, 0.2))
+        
 }
 
 .counts .count-box {
@@ -597,10 +629,14 @@ section {
     color: #e1acb9;
 }
 
+/*------ Removed Cta style ------*/
+
+
 
 /*--------------------------------------------------------------
-# Our Goodies
+# Our Goodies, previously Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
     margin-bottom: 30px;
     align-content: center;
@@ -658,13 +694,19 @@ section {
     opacity: 0;
 }
 
+/*------ Removed portfolio links style since it was deleted in html ------*/
+
+
 
 /*--------------------------------------------------------------
-# Menu
+# Menu, previusly Portfolio Details
 --------------------------------------------------------------*/
+
 .portfolio-details {
     padding-top: 30px;
 }
+
+/*------ Removed potfolio carousel and general info style since it was deleted in menu html ------*/
 
 .portfolio-details .portfolio-info {
     padding: 30px;
@@ -727,7 +769,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Stores
+# Our Stores, previously Services
 --------------------------------------------------------------*/
 .services .icon-box {
     padding: 30px;
@@ -808,10 +850,10 @@ section {
 
 
 /*--------------------------------------------------------------
-# Map 
+# Map, previously Cta
 --------------------------------------------------------------*/
 .cta {
-    background: linear-gradient(rgba(203, 163, 174, 0.8), rgba(227, 186, 197, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+    background: linear-gradient(rgba(203, 163, 174, 0.8), rgba(227, 186, 197, 0.8));
     background-size: cover;
     padding: 60px 0;
 }
@@ -822,7 +864,7 @@ section {
     font-weight: 700;
 }
 
-.map {
+.map /* Class added to style map */{
     width: 300px;
     height: 300px;
 }
@@ -833,6 +875,9 @@ section {
         height: 400px;
     }
 }
+
+/*------ Removed paragraph and btn style since it was deleted in html ------*/
+
 
 
 /*--------------------------------------------------------------
@@ -856,6 +901,7 @@ section {
     margin: 0 auto;
 }
 
+/*------ Removed h3 and h4 style since it was deleted in html ------*/
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
@@ -922,6 +968,9 @@ section {
     margin: 30px 10px;
   }
 }
+
+
+
 /*--------------------------------------------------------------
 # Tripadvisor
 --------------------------------------------------------------*/
@@ -929,6 +978,8 @@ section {
 .tripadvisor-btn:hover {
     filter: drop-shadow(5px 5px 10px rgba(203, 163, 174, 1));
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1186,6 +1237,8 @@ section {
 #footer .footer-top .footer-links ul a:hover {
     color: #B63150;
 }
+
+/*------ Removed newsletter style since it was deleted in html ------*/
 
 #footer .copyright {
     border-top: 1px solid #b63150;
