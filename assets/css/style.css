@@ -3,19 +3,34 @@
 * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
+* Modified by ....
 */
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/*Added external font classs*/ 
+
+/*TABLE OF CONTENTS
+1. BACK TO THE TOP BUTTON.....
+
+
+
+
+*/
+
+
+
+/*Added external font classs*/
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
 
 body {
     font-family: 'Barlow', sans-serif;
+    /*font - why???? */
     color: #444444;
+    /*colour - refer to slide 50 in the document*/
 }
-/*refer to slide 50 in justification document*/
+
+
 
 a {
     color: #b63150;
@@ -25,6 +40,7 @@ a:hover {
     color: #b63150;
     text-decoration: none;
 }
+
 /*refer to slide 11 in justification document*/
 
 
@@ -36,6 +52,7 @@ h5,
 h6 {
     font-family: "Raleway", sans-serif;
 }
+
 /*refer to slide 50 in justification document*/
 
 /*--------------------------------------------------------------
@@ -94,8 +111,10 @@ h6 {
 }
 
 
-.logo-image /* Class added to style logo image */
-{
+.logo-image
+
+/* Class added to style logo image */
+    {
     vertical-align: middle;
     align-items: flex-start;
     width: 100px;
@@ -105,15 +124,16 @@ h6 {
 }
 
 
-#header .logo img /* Class added since original logo was a heading */
+#header .logo img
+/* Class added since original logo was a heading */
 
-{
+    {
     padding: 0;
     margin: 0;
     max-height: 100px;
 }
 
- @media (max-width: 768px){
+@media (max-width: 768px) {
     #header.header-scrolled {
         padding: 15px 0;
     }
@@ -719,6 +739,7 @@ section {
 .deliveroo-btn:hover {
     filter: drop-shadow(10px 10px 15px rgba(203, 163, 174, 1));
 }
+
 /*Added hover function to make create button-appearance and to make it look more appealing*/
 
 
@@ -790,7 +811,10 @@ section {
     text-align: left;
 }
 
-.services .opening-hours /* Class added to style opening hours paragraph */{
+.services .opening-hours
+
+/* Class added to style opening hours paragraph */
+    {
     font-size: 15px;
     line-height: 28px;
     margin-top: 15px;
@@ -841,15 +865,16 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 
-.testimonials{
+.testimonials {
     background: #fff;
-    
+
 }
+
 .testimonials .testimonial-item {
     box-sizing: content-box;
     text-align: center;
     min-height: 320px;
-    
+
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -901,29 +926,31 @@ section {
     left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
+.testimonials .owl-nav,
+.testimonials .owl-dots {
+    margin-top: 5px;
+    text-align: center;
 }
 
 .testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd !important;
 }
 
 .testimonials .owl-dot.active {
-  background-color: #b63150!important;
+    background-color: #b63150 !important;
 }
 
 @media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
+    .testimonials {
+        margin: 30px 10px;
+    }
 }
+
 /*--------------------------------------------------------------
 # Tripadvisor
 --------------------------------------------------------------*/
@@ -1205,7 +1232,10 @@ section {
 
 }
 
-.black-font /*Class added to style BotstrapMade link*/ {
+.black-font
+
+/*Class added to style BotstrapMade link*/
+    {
     color: #B63150
 }
 
@@ -1220,4 +1250,5 @@ section {
     flex-direction: column;
     justify-content: center;
 }
+
 /*added a new center class*/
