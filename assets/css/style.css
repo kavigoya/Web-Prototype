@@ -3,7 +3,7 @@
 * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
-* Modified by Nadine Brük and Karen Vigoya
+* Modified by Nadine Brück and Karen Vigoya
 */
 
 /*--------------------------------------------------------------
@@ -34,15 +34,18 @@ Table of Contents
 
 body {
     font-family: 'Barlow', sans-serif;
+/* Refer to slide 11 in document*/
     color: #444444;
 }
 
 a {
     color: #b63150;
+/* Refer to slide 11 in document*/
 }
 
 a:hover {
     color: #b63150;
+/* Refer to slide 11 in document*/
     text-decoration: none;
 }
 
@@ -53,6 +56,8 @@ h4,
 h5,
 h6 {
     font-family: "Raleway", sans-serif;
+/* Refer to slide 50 in document*/
+
 }
 
 
@@ -111,6 +116,7 @@ h6 {
 
 #header.header-scrolled {
     background: #b63150;
+/* Refer to slide 11 in document*/
     padding: 0;
 }
 
@@ -158,6 +164,8 @@ h6 {
     white-space: nowrap;
     float: left;
     background: #b63150;
+    /* Refer to slide 11 in document*/
+
 }
 
 .nav-menu a {
@@ -168,6 +176,7 @@ h6 {
     transition: 0.3s;
     font-size: 13px;
     font-family: "Poppins", sans-serif;
+    /* Refer to slide 50 in document*/
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -185,6 +194,8 @@ h6 {
 
 .header-scrolled .nav-menu a {
     color: #fff;
+ /* Refer to slide 11 in document*/
+
 }
 
 .header-scrolled .nav-menu a:hover,
@@ -304,6 +315,7 @@ h6 {
     z-index: 9999;
     overflow-y: auto;
     background: #b63150;
+    /* Refer to slide 11 in document*/
     transition: ease-in-out 0.2s;
     opacity: 0;
     visibility: hidden;
@@ -550,6 +562,7 @@ section {
     font-weight: 700;
     font-size: 34px;
     color: #b63150;
+    /* Refer to slide 11 in document*/
     margin-bottom: 30px;
 
 }
@@ -583,6 +596,7 @@ section {
 .counts {
     padding-bottom: 30px;
     background: linear-gradient(rgba(203, 163, 174, 0.2), rgba(227, 186, 197, 0.2))
+/* Refer to slide 11 in document*/
         
 }
 
@@ -595,6 +609,8 @@ section {
     display: block;
     font-size: 44px;
     color: #d38396;
+    /* Refer to slide 11 in document*/
+
     float: left;
 }
 
@@ -604,6 +620,8 @@ section {
     display: block;
     font-weight: 700;
     color: #B63150;
+    /* Refer to slide 11 in document*/
+
     margin-left: 60px;
 }
 
@@ -611,6 +629,7 @@ section {
     padding: 15px 0 0 0;
     margin: 0 0 0 60px;
     font-family: "Raleway", sans-serif;
+    /* Refer to slide 50 in document*/
     font-size: 14px;
     color: #908A8C;
 }
@@ -620,13 +639,16 @@ section {
     display: block;
     margin-top: 20px;
     color: #e1acb9;
+    /* Refer to slide 11 in document*/
     font-size: 15px;
     font-family: "Poppins", sans-serif;
+    /* Refer to slide 50 in document*/
     transition: ease-in-out 0.3s;
 }
 
 .counts .count-box a:hover {
     color: #e1acb9;
+    /* Refer to slide 11 in document*/
 }
 
 /*------ Removed Cta style ------*/
@@ -648,6 +670,7 @@ section {
     list-style: none;
     text-align: center;
     background: #f0d3de;
+    /* Refer to slide 11 in document*/
     border-radius: 50px;
     padding: 2px 15px;
 }
@@ -661,6 +684,7 @@ section {
     line-height: 1;
     text-transform: uppercase;
     color: #b63150;
+    /* Refer to slide 11 in document*/
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
 }
@@ -751,6 +775,7 @@ section {
 
 .deliveroo {
     background: linear-gradient(rgba(203, 163, 174, 0.2), rgba(227, 186, 197, 0.2))
+    /* Refer to slide 11 in document*/
 }
 
 .deliveroo p {
@@ -760,6 +785,7 @@ section {
 
 .deliveroo-btn:hover {
     filter: drop-shadow(10px 10px 15px rgba(203, 163, 174, 1));
+    /* Refer to slide 11 in document*/
 }
 
 .full-width {
@@ -808,6 +834,7 @@ section {
     font-size: 48px;
     line-height: 1;
     color: #e1acb9;
+    /* Refer to slide 11 in document*/
     transition: all 0.3s ease-in-out;
 }
 
@@ -854,6 +881,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
     background: linear-gradient(rgba(203, 163, 174, 0.8), rgba(227, 186, 197, 0.8));
+    /* Refer to slide 11 in document*/
     background-size: cover;
     padding: 60px 0;
 }
@@ -906,6 +934,7 @@ section {
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
     color: #f0d5dc;
+    /* Refer to slide 11 in document*/
     font-size: 26px;
 }
 
@@ -924,6 +953,8 @@ section {
 
 .testimonials .testimonial-item p {
     font-style: italic;
+    /* Comments in italic to resemble a quote*/
+
     margin: 0 15px 15px 15px;
     padding: 20px;
     background: #fff;
@@ -961,6 +992,7 @@ section {
 
 .testimonials .owl-dot.active {
   background-color: #b63150!important;
+    /* Refer to slide 11 in document*/
 }
 
 @media (max-width: 767px) {
@@ -977,6 +1009,7 @@ section {
 
 .tripadvisor-btn:hover {
     filter: drop-shadow(5px 5px 10px rgba(203, 163, 174, 1));
+    /* Refer to slide 11 in document*/
 }
 
 
@@ -987,6 +1020,7 @@ section {
 .contact {
     padding-bottom: 80px;
     background: linear-gradient(rgba(203, 163, 174, 0.2), rgba(227, 186, 197, 0.2));
+    /* Refer to slide 11 in document*/
 }
 
 .contact .info-box {
@@ -1106,6 +1140,7 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
     background: #D57C9C;
+    /* Refer to slide 11 in document*/
 }
 
 @-webkit-keyframes animate-loading {
@@ -1133,6 +1168,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
     background: #cba3ae;
+    /* Refer to slide 11 in document*/
     padding: 0 0 30px 0;
 
     font-size: 14px;
@@ -1148,6 +1184,8 @@ section {
     background: white;
     color: #b63150;
     border-top: 4px solid #b63150;
+    /* Refer to slide 11 in document*/
+    
     text-align: center;
     padding: 30px 20px;
 }
@@ -1165,6 +1203,7 @@ section {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
+    /* Refer to slide 50 in document*/
     color: #444444;
 }
 
@@ -1172,6 +1211,7 @@ section {
     font-size: 18px;
     display: inline-block;
     background: #b63150;
+    /* Refer to slide 11 in document*/
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1185,6 +1225,7 @@ section {
 
 #footer .footer-top .social-links a:hover {
     background: #D57C9C;
+    /* Refer to slide 11 in document*/
     color: #fff;
     text-decoration: none;
 }
@@ -1212,6 +1253,7 @@ section {
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
     color: #b63150;
+    /* Refer to slide 11 in document*/
     font-size: 18px;
     line-height: 1;
 }
@@ -1236,12 +1278,14 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
     color: #B63150;
+    /* Refer to slide 11 in document*/
 }
 
 /*------ Removed newsletter style since it was deleted in html ------*/
 
 #footer .copyright {
     border-top: 1px solid #b63150;
+    /* Refer to slide 11 in document*/
     text-align: center;
     padding-top: 30px;
     color: #fff;
@@ -1257,6 +1301,8 @@ section {
 
 .black-font /*Class added to style BotstrapMade link*/ {
     color: #B63150
+/* Refer to slide 11 in document*/
+
 }
 
 @media (max-width: 575px) {
